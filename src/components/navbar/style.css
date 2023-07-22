@@ -1,0 +1,23 @@
+p {
+  font-size: 23px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  margin-bottom: 20px;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

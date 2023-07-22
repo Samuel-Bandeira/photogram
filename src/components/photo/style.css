@@ -1,0 +1,48 @@
+.photo {
+  width: 600px;
+  height: 600px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  height: 60px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.content {
+  height: 490px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 10px;
+}
+
+.like {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.pi-heart-fill {
+  color: red;
+}
+
+.comment {
+  font-size: 25px;
+}

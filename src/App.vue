@@ -1,21 +1,15 @@
 <template>
   <div>
-    <Photo :user="user" :imageUrl="imageUrl" />
+    <Navbar />
+    <router-view />
   </div>
 </template>
+
 <script>
-import Photo from "./components/Photo.vue";
+import Navbar from "./components/navbar/Navbar.vue";
 
 export default {
-  components: { Photo },
-  data() {
-    return {
-      user: {
-        id: 1,
-        name: "Samuel_Oliveira",
-      },
-      imageUrl: "https://shorturl.at/iAT04",
-    };
-  },
+  name: "App",
+  components: { Navbar },
 };
 </script>
